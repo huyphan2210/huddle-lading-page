@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --pale-cyan: hsl(193, 100%, 96%);
+  --pink: hsl(322, 100%, 66%);
+}
+
 body {
   margin: 0;
   overflow: hidden;
   min-height: 100vh;
-}
+  font-family: "Open Sans", sans-serif;
 
+  button {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 2rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
