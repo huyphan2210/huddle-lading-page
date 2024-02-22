@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  position: relative;
 
   &__header {
     display: flex;
@@ -40,12 +41,13 @@
       h1,
       p {
         margin: 0;
+        line-height: 1.5em;
       }
 
       button {
         background-color: var(--pink);
         color: white;
-        padding: 0.5rem 4rem;
+        padding: 1rem 4rem;
       }
     }
 
@@ -69,12 +71,15 @@
       img {
         height: 3rem;
       }
+      button {
+        padding: 1rem 4rem;
+      }
     }
 
     &__content {
       padding-top: unset;
       display: grid;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: 40% 60%;
       position: absolute;
       width: 90vw;
       top: 50%;
@@ -88,6 +93,10 @@
         justify-content: center;
         align-items: start;
         text-align: start;
+
+        h1 {
+          font-size: clamp(2rem, 2vw, 3rem);
+        }
       }
     }
   }

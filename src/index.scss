@@ -9,16 +9,17 @@
 
 body {
   margin: 0;
-  overflow: hidden;
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
-
+  
   button {
     font-family: "Poppins", sans-serif;
     border: none;
     border-radius: 2rem;
+    transition: .3s;
     &:hover {
       cursor: pointer;
+      opacity: 0.7;
     }
   }
 }
