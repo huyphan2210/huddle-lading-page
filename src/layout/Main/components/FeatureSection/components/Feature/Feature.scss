@@ -16,3 +16,25 @@
     }
   }
 }
+
+@media screen and (min-width: 720px) {
+  .feature {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 3rem 3rem 3rem 6rem;
+    gap: clamp(15vw, 20rem, 20vw);
+
+    &.reversed {
+      flex-direction: row-reverse;
+    }
+
+    &__img {
+      width: 40%;
+    }
+
+    &__text {
+      width: 60%;
+    }
+  }
+}
