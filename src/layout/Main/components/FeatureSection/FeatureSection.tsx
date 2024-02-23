@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./FeatureSection.scss";
-import Feature, { FeatureProps } from "./components/Feature/Feature";
+import Feature from "./components/Feature/Feature";
 import growTogetherImg from "../../../../assets/images/illustration-grow-together.svg";
 import flowingConversationImg from "../../../../assets/images/illustration-flowing-conversation.svg";
 import yourUsersImg from "../../../../assets/images/illustration-your-users.svg";
