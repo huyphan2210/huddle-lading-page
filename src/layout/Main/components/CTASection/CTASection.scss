@@ -1,0 +1,17 @@
+.cta-section {
+  position: absolute;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem -10px var(--grayish-blue);
+  background-color: white;
+  top: 100%;
+  width: calc(100vw - 3rem);
+  left: 1.5rem;
+  padding-inline: unset;
+  transform: translate(0, -50%);
+
+  button {
+    background-color: var(--pink);
+    color: white;
+    padding: 1rem 4rem;
+  }
+}
