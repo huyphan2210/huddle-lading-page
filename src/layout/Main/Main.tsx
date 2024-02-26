@@ -6,7 +6,7 @@ import CTASection from "./components/CTASection/CTASection";
 
 const Main: FC = () => {
   return (
-    <main>
+    <main className="main">
       <HeroSection />
       <FeatureSection />
       <CTASection />

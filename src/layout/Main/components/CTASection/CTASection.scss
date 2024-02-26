@@ -6,12 +6,26 @@
   top: 100%;
   width: calc(100vw - 3rem);
   left: 1.5rem;
+  padding-block: 1.5rem;
   padding-inline: unset;
   transform: translate(0, -50%);
+
+  h1 {
+    margin-block-start: 0;
+  }
 
   button {
     background-color: var(--pink);
     color: white;
     padding: 1rem 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cta-section {
+    width: 50vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-block: 3rem;
   }
 }
