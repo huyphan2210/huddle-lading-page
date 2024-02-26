@@ -1,5 +1,21 @@
-footer {
+.footer {
   background-color: var(--dark-cyan);
   padding: 9rem 1.5rem 1.5rem;
   color: var(--pale-cyan);
+
+  &__content {
+    margin-top: 1.5rem;
+    &__info {
+      display: grid;
+      gap: 1.5rem;
+      
+      &__detail {
+        display: flex;
+        align-items: start;
+        gap: 1.5rem;
+      }
+    }
+  }
+
+  // &__c
 }
