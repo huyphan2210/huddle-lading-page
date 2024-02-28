@@ -63,6 +63,11 @@
       &__navigation {
         grid-template-columns: repeat(2, 17.5vw);
         column-gap: 5vw;
+        a {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
       
       &__social-link {
@@ -71,6 +76,11 @@
         align-items: center;
         a {
           width: 3rem;
+          transition: .3s;
+          
+          &:hover {
+            opacity: 0.7;
+          }
         }
       }
     }
