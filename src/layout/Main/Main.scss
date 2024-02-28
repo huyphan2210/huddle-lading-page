@@ -4,4 +4,9 @@
   position: relative;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  color: var(--dark-cyan);
+
+  p {
+    color: var(--grayish-blue);
+  }
 }
